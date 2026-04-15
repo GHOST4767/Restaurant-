@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #111;
+      color: #fff;
+    }
+
+    header {
+      background: #000;
+      padding: 15px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #f4b400;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #f4b400;
+    }
+
+    .hero {
+      height: 90vh;
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 50px;
+      background: rgba(0,0,0,0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .section {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .menu-items {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #f4b400;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #ffaa00;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>BACHELOR BAR</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="INDE.HTML">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h2>Welcome to Our Restaurant 🍔</h2>
+</section>
+
+
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>We serve the best food in town with fresh ingredients and great taste.</p>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: contact@foodies.com</p>
+  <p>Phone: +91 9876543210</p>
+</section>
+
+<footer>
+  <p>© 2026 Foodies Restaurant | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
